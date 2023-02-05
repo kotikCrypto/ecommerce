@@ -18,10 +18,11 @@
     margin: 0 15px;
     color: #a1a1a1;
     text-decoration: none;
+    transition: all 0.5s;
 }
 
 .headerTopLinks a:hover {
-    text-decoration: underline;
+    color: #1e1e1e;
 }
 
 .headerBottom {
@@ -72,20 +73,108 @@
 
 .footer {
     border: 1px solid #000;
+    background-color: #2a2a2a;
 }
 
 .footerTop {
     display: block;
     margin: 0 auto;
-    border: 1px solid #ff0000;
-    width: 80%;height: 200px;
+    width: 80%;
     padding: 40px 0 20px 0;
+}
+
+.footerTop {
+    display: flex;
+    border-bottom: 3px dotted #eee;
+}
+
+.footerDiv {
+    flex: 1;
 }
 
 .footerBottom {
     display: block;
     margin: 0 auto;
-    border: 1px solid #ff0000;
     width: 80%;height: 200px;
-    padding: 20px 0 40px 0;
+    padding: 20px 0 20px 0;
+}
+
+.footerBottomCopyright {
+    text-align: center;
+}
+
+.footerBottomSocials {
+    margin-top: 30px;
+}
+
+.footerBottomSocials svg {
+    font-size: 22px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: #ccffff;
+    transition: all 0.5s;
+}
+
+.footerBottomSocials svg:hover {
+    color: #cc6666;
+}
+
+.footerBottomText {
+    color: #fff;
+    font-size: 14px;
+    /* letter-spacing: 1.3px; */
+}
+
+.footerBottomText a {
+    color: #ccffff;
+    text-decoration: none;
+    transition: all 0.5s;
+} 
+
+.footerBottomText a:hover {
+    color: #cc6666;
+}
+
+.footerLogo .footerLogoLink {
+    color: #ffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1.3px;
+}
+
+.footerLogo .footerLogoLink h2 {
+    font-size: 30px;
+    text-shadow: 2px 2px #a1a1a1;
+}
+
+.footerLogo .footerLogoLink h4 {
+    /* font-size: 20px;  */
+    text-shadow: 1px 1px #a1a1a1;
+}
+
+.footerLinks {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.footerLinks a {
+    margin-top: 15px;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.footerLinks a:hover {
+    color: #aaa;
+}
+
+.footerLinks a:first-child {
+    margin-top: 20px;
+}
+
+.footerTitle h4 {
+    text-align: center;
+    color: #fff;
 }
