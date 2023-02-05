@@ -1,9 +1,10 @@
 import React from 'react'
+import Intro from '../components/Intro'
 
 const Home = () => {
   return (
-    <div>
-      Home
+    <div className='home'>
+      <Intro/>
     </div>
   )
 }
