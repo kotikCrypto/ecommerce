@@ -3,6 +3,7 @@ import Explore from '../components/Explore'
 import Intro from '../components/Intro'
 import Latest from '../components/Latest'
 import Socials from '../components/Socials'
+import Subscribe from '../components/Subscribe'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Latest/>
       <Explore/>
       <Socials/>
+      <Subscribe/>
     </div>
   )
 }

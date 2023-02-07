@@ -330,6 +330,7 @@ body {
 .socialsBottomImages {
   display: flex;
 }
+
 .socialsBottomImg {
   position: relative;
 }
@@ -373,4 +374,116 @@ body {
   bottom: 15px;
   left: 15px;
   color: #fff;
+}
+
+/* ======================================== */
+/* Subscribe */
+
+.subscribe {
+  min-height: 100vh;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding: 80px 40px;
+  border-bottom: 3px dotted #eee;
+}
+
+.subscribeDiv {
+  display: flex;
+  gap: 60px;
+}
+
+.subscribeLeft {
+  width: 60%;
+}
+
+.subscribeRight {
+  width: 40%;
+}
+
+.subscribeTitle {
+  line-height: 55px;
+  font-size: 34px;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+
+.subscribeDesc {
+  font-size: 14px;
+  font-weight: 400;
+  color: #a1a1a1;
+  font-style: italic;
+}
+
+.subscribeLeft form {
+  margin-top: 30px;
+}
+
+.subscribeFormGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscribeFormGroup input {
+  width: 310px;
+  height: 44px;
+  line-height: 44px;
+  padding: 0 15px;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  color: #aaa;
+  border-radius: 0px;
+  border: 1px solid #7a7a7a;
+  box-shadow: none;
+}
+
+.subscribeFormGroup input:focus {
+  outline-color: #ffc107;
+}
+
+.subscribeFormGroup button {
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  text-align: center;
+  line-height: 44px;
+  background-color: #2a2a2a;
+  box-shadow: none;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.subscribeFormGroup button:hover {
+  border: 1px solid #2a2a2a;
+  color: #2a2a2a;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.subscribeRight {
+  display: flex; 
+}
+
+.subscribeRightLeft,
+.subscribeRightRight {
+  flex: 1;
+}
+
+.subscribeRightLeft div, 
+.subscribeRightRight div {
+margin-bottom: 30px;
+}
+
+.subscribeRightLeft div h4, 
+.subscribeRightRight div h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+
+.subscribeRightLeft div span, 
+.subscribeRightRight div span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #aaa;
 }
