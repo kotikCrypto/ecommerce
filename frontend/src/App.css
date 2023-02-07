@@ -187,7 +187,8 @@
     display: flex;
     align-items: center;
     margin-left: 16px;
-    margin-right: 16    px;
+    margin-right: 16px;
+    border-bottom: 3px dotted #eee;
 }
 
 .introLeft,
