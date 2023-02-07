@@ -2,6 +2,7 @@ import React from 'react'
 import Explore from '../components/Explore'
 import Intro from '../components/Intro'
 import Latest from '../components/Latest'
+import Socials from '../components/Socials'
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Intro/>
       <Latest/>
       <Explore/>
+      <Socials/>
     </div>
   )
 }
