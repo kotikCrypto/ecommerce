@@ -1,4 +1,5 @@
 import React from 'react'
+import Explore from '../components/Explore'
 import Intro from '../components/Intro'
 import Latest from '../components/Latest'
 
@@ -7,6 +8,7 @@ const Home = () => {
     <div className='home'>
       <Intro/>
       <Latest/>
+      <Explore/>
     </div>
   )
 }
