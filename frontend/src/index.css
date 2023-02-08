@@ -461,7 +461,7 @@ body {
 }
 
 .subscribeRight {
-  display: flex; 
+  display: flex;
 }
 
 .subscribeRightLeft,
@@ -469,21 +469,152 @@ body {
   flex: 1;
 }
 
-.subscribeRightLeft div, 
+.subscribeRightLeft div,
 .subscribeRightRight div {
-margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
-.subscribeRightLeft div h4, 
+.subscribeRightLeft div h4,
 .subscribeRightRight div h4 {
   font-size: 16px;
   font-weight: 700;
   color: #2a2a2a;
 }
 
-.subscribeRightLeft div span, 
+.subscribeRightLeft div span,
 .subscribeRightRight div span {
   font-size: 14px;
   font-weight: 400;
   color: #aaa;
+}
+
+/* ================================================== */
+/* Form */
+
+.form {
+  min-height: 100vh;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding: 80px 40px;
+  border: 3px solid red;
+}
+
+.formTop {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.formTop img {
+  width: 100%;
+}
+
+.formTexts {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.formTexts h2 {
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.formTexts span {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+  color: #fff;
+}
+
+.formBottom {
+  display: flex;
+  gap: 30px;
+}
+
+.formBottomLeft,
+.formBottomRight {
+  width: 50%;
+}
+
+.formBottomTexts h2 {
+  font-size: 34px;  
+  font-weight: 700;
+  color: #2a2a2a;
+}
+
+.formBottomTexts span {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  color: #a1a1a1;
+}
+
+.formBottomForm {
+  margin-top: 40px;
+}
+
+.formBottomGroups {
+  width: 100%;
+}
+
+.formBottomGroups:first-child {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.formBottomGroups input {
+  width: 50%;
+  height: 44px;
+  line-height: 44px;
+  padding: 0 15px;
+  font-size: 14px;font-style: italic;
+  font-weight: 500;
+  color: #aaa;
+  border-radius: 0px;
+  border: 1px solid #7a7a7a;
+  box-shadow: none;
+  margin: 0 15px;
+}
+
+.formBottomGroups textarea {
+  width: 100%;
+  height: 140px;
+  min-height: 120px;
+  max-height: 200px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  line-height: 44px;
+  padding: 0 15px;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  color: #aaa;
+  border-radius: 0px;
+  border: 1px solid #7a7a7a;
+  box-shadow: none;
+  resize: none;
+}
+
+.formBottomBtn {
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  text-align: center; 
+  line-height: 44px;
+  background-color: #2a2a2a;
+  box-shadow: none;
+  border: 1px solid transparent;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.formBottomBtn:hover {
+  background-color: #fff;
+  color: #2a2a2a;
+  border-color: #2a2a2a;
 }
