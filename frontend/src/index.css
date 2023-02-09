@@ -541,7 +541,7 @@ body {
 }
 
 .formBottomTexts h2 {
-  font-size: 34px;  
+  font-size: 34px;
   font-weight: 700;
   color: #2a2a2a;
 }
@@ -572,7 +572,8 @@ body {
   height: 44px;
   line-height: 44px;
   padding: 0 15px;
-  font-size: 14px;font-style: italic;
+  font-size: 14px;
+  font-style: italic;
   font-weight: 500;
   color: #aaa;
   border-radius: 0px;
@@ -604,7 +605,7 @@ body {
   width: 44px;
   height: 44px;
   display: inline-block;
-  text-align: center; 
+  text-align: center;
   line-height: 44px;
   background-color: #2a2a2a;
   box-shadow: none;
@@ -617,4 +618,239 @@ body {
   background-color: #fff;
   color: #2a2a2a;
   border-color: #2a2a2a;
+}
+
+/* ============================ */
+/* About */
+
+.aboutUs {
+  min-height: 100vh;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding: 80px 40px;
+}
+
+.aboutUsDiv {
+  border-bottom: 3px dotted #eee;
+  padding-bottom: 80px;
+}
+
+.aboutUsTop {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.aboutUsTop img {
+  width: 100%;
+}
+
+.aboutUsTexts {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.aboutUsContent h2 {
+  text-align: center;
+}
+
+.aboutUs h2 {
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.aboutUs span {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+  color: #fff;
+}
+
+.aboutUsBottom {
+  display: flex;
+  gap: 30px;
+}
+
+.aboutUsBottomLeft,
+.aboutUsBottomRight {
+  width: 50%;
+}
+
+.aboutUsBottomTexts {
+  border-bottom: 3px dotted #eee;
+  padding-bottom: 80px;
+}
+
+.aboutUsBottomTexts h2 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+
+.aboutUsBottomTexts span {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  color: #a1a1a1;
+}
+
+.aboutUsBottomTexts .exploreQuote {
+  margin-top: 25px;
+}
+
+.aboutUsBottomSocials {
+  display: flex;
+  gap: 30px;
+  margin-top: 80px;
+}
+
+.aboutUsBottomSocials a {
+  width: 44px;
+  height: 44px;
+  background-color: #2a2a2a;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.aboutUsBottomSocials a:hover {
+  color: #2a2a2a;
+  background-color: #fff;
+}
+
+.aboutUsOthers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.aboutUsOthers h2 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+
+.aboutUsOthers span {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  color: #a1a1a1;
+  border: 1px dotted #eee;
+}
+
+.aboutUsContent {
+  margin-bottom: 60px;
+}
+
+.aboutUsImages {
+  display: flex;
+  gap: 50px;
+}
+
+.aboutUsImageBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutUsImageBottom h4 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #2a2a2a;
+}
+
+.aboutUsImageBottom span {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: italic;
+  color: #a1a1a1;
+  text-align: center;
+}
+
+.aboutUsImageTop {
+  position: relative;
+  height: 300px;
+}
+
+.aboutUsImageTop img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aboutUsImageHover {
+  position: absolute;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+
+.aboutUsImageHover a {
+  width: 44px;
+  height: 44px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.aboutUsImageHover a:hover {
+  color: #fff;
+  background-color: #2a2a2a;
+}
+
+.aboutUsImageTop:hover .aboutUsImageHover {
+  opacity: 1;
+  visibility: visible;
+}
+
+.aboutUsImagesDiv {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.aboutUsImgDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 0 15px rgba(0 0 0 / 10%);
+  padding: 30px;
+}
+
+.aboutUsImgDiv  h4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2a2a2a;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.aboutUsImgDiv  span {
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 25px;
+  color: #2a2a2a;
+  text-align: center;
 }
