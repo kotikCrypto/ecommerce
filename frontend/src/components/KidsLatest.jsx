@@ -34,7 +34,7 @@ const KidsLatest = () => {
                   </div>
 
                   <div className="sliderImgTopHover">
-                    <Link to="/" className='sliderImgLink'>
+                    <Link to="/product/3423" className='sliderImgLink'>
                       <FaEye />
                     </Link>
                     <Link to="/" className='sliderImgLink'>
