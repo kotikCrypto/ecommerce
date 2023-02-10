@@ -9,7 +9,7 @@ const Header = () => {
                 <div className="headerTopLinks">
                     <Link to="/account">Account: Guest</Link>
                     <Link to="/cart">Your Cart(0)</Link>
-                    <Link to="/account">Login / Register</Link>
+                    <Link to="/login">Login / Register</Link>
                 </div>
             </div>
 
@@ -30,16 +30,16 @@ const Header = () => {
                             <NavLink to="/" className="headerNavLink">Home</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/" className="headerNavLink" >Mens</NavLink>
+                            <a href="/#men" className="headerNavLink" >Mens</a>
                         </li>
                         <li>
-                            <NavLink to="/" className="headerNavLink">Woomes</NavLink>
+                            <a href="/#woomen" className="headerNavLink">Woomens</a>
                         </li>
                         <li>
-                            <NavLink to="/" className="headerNavLink">Kids</NavLink>
+                            <a href="/#kids" className="headerNavLink">Kids</a>
                         </li>
                         <li>
-                            <NavLink to="/" className="headerNavLink">Products</NavLink>
+                            <NavLink to="/products" className="headerNavLink">Products</NavLink>
                         </li>
                         <li>
                             <NavLink to="/" className="headerNavLink">Expolre</NavLink>

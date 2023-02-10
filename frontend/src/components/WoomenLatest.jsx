@@ -13,7 +13,7 @@ const WoomenLatest = () => {
     slidesToScroll: 1
 };
   return (
-    <div className='latestContainer'>
+    <div className='latestContainer' id="woomen">
       <div className="latestDiv">
 
         <div className="latestText">
