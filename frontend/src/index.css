@@ -832,6 +832,7 @@ body {
 }
 
 .aboutUsImgDiv {
+  width: 30%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -839,7 +840,7 @@ body {
   padding: 30px;
 }
 
-.aboutUsImgDiv  h4 {
+.aboutUsImgDiv h4 {
   font-size: 24px;
   font-weight: 700;
   color: #2a2a2a;
@@ -847,10 +848,82 @@ body {
   margin-bottom: 25px;
 }
 
-.aboutUsImgDiv  span {
+.aboutUsImgDiv span {
   font-size: 14px;
   line-height: 25px;
   margin-bottom: 25px;
   color: #2a2a2a;
   text-align: center;
+}
+
+/* ===================================== */
+/* ProductsItems */
+
+.productsItems {
+  min-height: 100vh;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding: 80px 40px;
+}
+
+.productsItemsDiv {
+  padding-bottom: 10px;
+}
+
+.productsItemsTop {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.productsItemsTop img {
+  width: 100%;
+}
+
+.productsItemsTexts {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.productsItemsTexts h2 {
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.productsItemsTexts span {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+  color: #fff;
+}
+
+.productsItemsOthers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.productsItemsOthers h2 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+
+.productsItemsOthers span {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  color: #a1a1a1;
+}
+
+.productsItemsContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
